@@ -15,14 +15,14 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 6. Terminate the program.
 
 ### PROGRAM
-...
-l=[]
-n=int(input())
-for i in range(5,n,5):
-    l.append(i)
-t=tuple(l)
-print(t)
-...
+
+ l=[]
+ n=int(input())
+ for i in range(5,n,5):
+     l.append(i)
+ t=tuple(l)
+ print(t)
+
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/10634756-aaa2-491b-b49a-a433a9984dc4)
 
