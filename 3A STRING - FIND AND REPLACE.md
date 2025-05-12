@@ -15,12 +15,13 @@ To write a Python function to accept a string, identify a word to be replaced, a
 7. Terminate the program.
 
 ### PROGRAM
+```
 def replacestr(m, n):
     r=input()
     print("The old string is",m)
     
     print("the new string is",m.replace(n,r))
-
+```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/f65effa4-5015-451f-8f66-7a8fd296b475)
 
