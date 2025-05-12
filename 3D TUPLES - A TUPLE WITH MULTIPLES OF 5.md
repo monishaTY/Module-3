@@ -1,12 +1,9 @@
 # Exp.No:3d  
 ## TUPLES - A TUPLE WITH MULTIPLES OF 5
 
----
-
 ### AIM  
 To write a Python program to create a tuple containing all multiples of 5 up to a given number **N**.
 
----
 
 ### ALGORITHM
 
@@ -17,13 +14,17 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 5. Print the resulting tuple.  
 6. Terminate the program.
 
----
-
 ### PROGRAM
 
-```
-```
+l=[]
+n=int(input())
+for i in range(5,n,5):
+    l.append(i)
+t=tuple(l)
+print(t)
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/10634756-aaa2-491b-b49a-a433a9984dc4)
 
 ### RESULT
+Thus a Python program to create a tuple containing all multiples of 5 up to a given number N has been implemented and executed.
